@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <script type="text/javascript" src="java.js"></script>
+  <link rel="stylesheet" href="stylesheet.css">
+
+  <nav>
+    <ul class="nav">
+      <li><a href="HomePage.html">Back to Home Page</a></li>
+      <li><a href="AboutPage.html">About</a></li>
+    </ul>
+  </nav>
+  <h1>Contact</h1>
+
+</head>
+<body bgcolor="lightgreen">
+
+<script>
+  function outputname() {
+    var y,x,name,a,b,answer;
+  x=document.getElementById("form1");
+  y=x.elements["name"].value;
+    document.getElementById("stuff").innerHTML="Thanks "+y+"<br>";
+    document.getElementById("stuff").innerHTML+="P.S. "+ y + " is a nice name :)";
+  }
+
+  </script>
+
+<p id="stuff"></p>
+
+<br>
+<br>
+
+<form id="form1">
+  First Name:<br> <input name="name" type="text" size="20">
+</form>
+<form>
+  Last name:<br>
+  <input type="text" name="lastname"><br>
+  Message:<br>
+  <input type="text" name="subject" style="height:200px">
+  <br>
+  <br>
+</form>
+<br>
+<button onclick="outputname()">Submit</button>
+
+
+<style>
+  body {
+    padding: 0;
+    margin: 0'
+  }
+
+  .nav {
+      background-color: grey;
+      margin: 0;
+      list-style: none;
+      text-align: center;
+  }
+
+  .nav > li > a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #FFF;
+
+  }
+</style>
+
+</body>
+</html>

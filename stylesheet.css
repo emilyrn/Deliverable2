@@ -1,0 +1,49 @@
+/*styyyyyyle*/
+body {
+    background-color: powderblue; opacity: 1;
+}
+h2 {
+    color: white;
+    text-align: center;
+}
+
+div {
+    background-color: lightgreen; padding: 5px; width: 200px;
+    margin: 0 0 50px 50px;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+
+}
+
+input {
+    background-color: lightgreen;
+}
+
+img {
+  border-radius: 25px;
+  padding: 10px;
+  width: 200px;
+}
+
+hr {
+  height: 3px;
+}
+
+img {
+  filter: url(filters.svg#grayscale);
+  filter: gray;
+  -webkit-filter: grayscale(1);
+
+}
+img:hover {
+  filter: none;
+  -webkit-filter: none;
+}
+
+li:hover {
+  background-color: powderblue;
+  
+}
